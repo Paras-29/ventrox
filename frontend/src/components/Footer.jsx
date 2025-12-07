@@ -52,12 +52,12 @@ const Footer = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <motion.h3
+              <motion.img
+                src="./images/vlogo1.png"
+                alt="Ventrox Logo"
+                className="h-12 sm:h-14 w-auto object-contain mb-4 sm:mb-6 group-hover:drop-shadow-lg transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
-                className="text-2xl sm:text-3xl font-black bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent mb-4 sm:mb-6"
-              >
-                Ventrox
-              </motion.h3>
+              />
               <p className="text-gray-300 mb-6 sm:mb-8 leading-relaxed text-sm sm:text-lg">
                 Transforming businesses through innovative digital solutions. We specialize in web development, digital marketing, and creative services that drive growth and success.
               </p>

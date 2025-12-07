@@ -33,7 +33,7 @@ const About = () => {
     <section id="about" className="py-16 sm:py-20 lg:py-26 bg-gradient-to-br from-gray-800 via-black to-gray-800 relative overflow-hidden">
       
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -155,7 +155,7 @@ const About = () => {
                 Founder
               </span>
             </div>
-            <h3 className="text-3xl sm:text-4xl font-extrabold text-blue-700 mt-6 mb-2 drop-shadow-lg">Chetan Upadhyay</h3>
+            <h3 className="text-3xl sm:text-4xl font-extrabold text-blue-700 mt-6 mb-2 drop-shadow-lg">Sachin Mavandiya</h3>
             <p className="text-base sm:text-lg text-gray-600 font-medium mb-4">Founder & CEO</p>
             <blockquote className="italic text-indigo-600 text-center max-w-md">
               "Empowering businesses to achieve more through innovation and passion."

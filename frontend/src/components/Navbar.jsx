@@ -56,18 +56,10 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="flex-shrink-0 relative group"
           >
-            <motion.div
-              animate={{ rotate: [0, 360] }}
-              transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-              className="absolute inset-0 w-8 h-8 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-full opacity-20 blur-xl group-hover:opacity-40 transition-opacity duration-300"
-            />
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-black bg-gradient-to-r from-orange-500 via-gray-300 to-orange-500 bg-clip-text text-transparent relative z-10">
-              Ventrox
-            </h1>
-            <motion.div
-              animate={{ scale: [1, 1.2, 1] }}
-              transition={{ duration: 2, repeat: Infinity }}
-              className="absolute -top-1 -right-1 w-2 h-2 sm:w-3 sm:h-3 bg-yellow-400 rounded-full"
+            <img
+              src="./images/vlogo1.png"
+              alt="Ventrox Logo"
+              className="h-20 sm:h-12 md:h-14 w-auto object-contain group-hover:drop-shadow-lg transition-all duration-300"
             />
           </motion.div>
 

@@ -56,44 +56,6 @@ const Portfolio = () => {
       githubUrl: "https://github.com/Paras-29/adventure"
     },
    
-    {
-      id: 5,
-      title: "Space Chimes Edits",
-      category: "video",
-      image: "./images/sc.jpeg",
-      description: "Professional product demonstration video for marketing and promotional purposes.",
-      technologies: ["Adobe Premiere", "After Effects", "Motion Graphics"],
-      liveUrl: "https://justchetan.myportfolio.com/rapper-edits",
-    },
-     {
-      id: 6,
-      title: "Artistic Edits",
-      category: "video",
-      image: "./images/art.jpeg",
-      description: "Professional product demonstration video for marketing and promotional purposes.",
-      technologies: ["Adobe Premiere", "After Effects", "Motion Graphics"],
-      liveUrl: "https://justchetan.myportfolio.com/artists-edits",
-    },
-    {
-      id: 7,
-      title: "Cinamatics ",
-      category: "video",
-      image: "./images/cin.jpg",
-      description: "Professional product demonstration video for marketing and promotional purposes.",
-      technologies: ["Adobe Premiere", "After Effects", "Motion Graphics"],
-      liveUrl: "https://justchetan.myportfolio.com/cinematic",
-    },
-     {
-      id: 8,
-      title: "Travel Edits",
-      category: "video",
-      image: "./images/tra.jpg",
-      description: "Professional Travel sites demonstration video for marketing and promotional purposes.",
-      technologies: ["Adobe Premiere", "After Effects", "Motion Graphics"],
-      liveUrl: "https://justchetan.myportfolio.com/travel-projects",
-    },
-   
-   
   ]
 
   const filteredProjects = selectedCategory === 'all' 
